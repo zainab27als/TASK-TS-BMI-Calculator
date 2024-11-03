@@ -1,28 +1,24 @@
-# BMI-Calculator
-Fork and clone [this repo](https://github.com/JoinCODED/TASK-dom-bmi-calculator)
-BMI is Body Mass Index, and we usually use it to measure if our weight is within the normal range, or not.
+# JS-BMI
 
 ## Instructions
 
-### 1. Challenge 1 :
-1. go to index.js file and use the variables to calculate the BMI, the equation for BMI is (weight (kg) / height^2(m)), dont forget to convert cm to m
-2. show the results in an alert 
+- Fork and clone [this repository](https://github.com/JoinCODED/TASK-JS-BMI-Calculator-no-dom) to your `Development` folder.
+  - ```bash
+    git clone git@github.com:<your_username>/TASK-JS-BMI-Calculator-no-dom.git
+    ```
 
-### 2. Challenge 2 :
-1. using the result you calculated in challenge 1 and check the BMI state
-    1. Below 18.5	Underweight
-    2. 18.5 – 24.9	Healthy Weight
-    3. 25.0 – 29.9	Overweight
-    4. 30.0 and Above	Obesity
-2. show the BMI state in an alert
+### Running The Tests
 
-
-### 3. Challenge 3 :
-1. using the result you calculated in challenge 1 check the BMI state BUT based on age
-2. use the following table for reference
-![bmi](https://user-images.githubusercontent.com/84308096/152272549-5fad579a-641b-466a-85ce-dca61eb7cb41.png)
-3. show `Healthy` or `Not Healthy` in an alert
-
-    
-
-
+- Install all the requirements:
+  1.  Navigate to the project root (you'll find a file called `package.json` there).
+  2.  Install the requirments with the following command:
+      ```bash
+        npm install
+      ```
+  3.  Run the tests
+      ```bash
+        npm test
+      ```
+  4.  This command will run the testing file and test your code to make sure it has all the required features.
+  5.  You know you're done when your code passes all the tests!
+  6.  Go to the Actions tab and make sure to enable the github actions!
