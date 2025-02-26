@@ -2,9 +2,9 @@
 
 ## Instructions
 
-- Fork and clone [this repository](https://github.com/JoinCODED/TASK-JS-BMI-Calculator-no-dom) to your `Development` folder.
+- Fork and clone [this repository](https://github.com/JoinCODED/TASK-TS-BMI-Calculator) to your `Development` folder.
   - ```bash
-    git clone git@github.com:<your_username>/TASK-JS-BMI-Calculator-no-dom.git
+    git clone git@github.com:<your_username>/TASK-TS-BMI-Calculator.git
     ```
 
 ### Running The Tests
