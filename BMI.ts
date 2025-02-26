@@ -51,4 +51,4 @@ function getBMIStateByAge(BMI, age) {
   return BMIState;
 }
 
-module.exports = { calculateBMI, getBMIState, getBMIStateByAge };
+export { calculateBMI, getBMIState, getBMIStateByAge };

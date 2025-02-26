@@ -1,5 +1,6 @@
-const { faker } = require("@faker-js/faker");
-const { calculateBMI, getBMIState, getBMIStateByAge } = require("./BMI");
+import { faker } from "@faker-js/faker";
+
+import { calculateBMI, getBMIState, getBMIStateByAge } from "./BMI";
 
 describe("calculateBMI", () => {
   it("calculates the correct BMI", () => {
@@ -62,7 +63,7 @@ describe("getBMIStateByAge", () => {
       );
 
       expect(getBMIStateByAge(BMI, age)).toBe(
-        BMI < healthyRange.min || BMI > healthyRange.max
+        BMI < healthyRange!.min || BMI > healthyRange!.max
           ? "not healthy"
           : "healthy"
       );
