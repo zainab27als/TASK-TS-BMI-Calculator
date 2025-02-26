@@ -29,9 +29,9 @@ describe("getBMIState", () => {
       expect(getBMIState(BMI)).toBe(
         BMI < 18.5
           ? "underweight"
-          : BMI < 24.9
+          : BMI < 25
           ? "healthy"
-          : BMI < 29.9
+          : BMI < 30
           ? "overweight"
           : "obese"
       );
