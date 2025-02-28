@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker";
 
-import { calculateBMI, getBMIState, getBMIStateByAge } from "./BMI";
+import { calculateBMI, getBMIState, getBMIStateByAge } from "../BMI";
 
 describe("calculateBMI", () => {
   it("calculates the correct BMI", () => {
